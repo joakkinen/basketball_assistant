@@ -1,0 +1,21 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select record type:"
+        android:id="@+id/textView"
+        android:onClick="recordOnePlayer" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1 player"
+        android:id="@+id/rt_b_oneplayer"
+        android:onClick="recordOnePlayer" />
+</LinearLayout>

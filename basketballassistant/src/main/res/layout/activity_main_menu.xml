@@ -1,0 +1,36 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Basket assistant"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="record a game"
+        android:id="@+id/mm_b_record"
+        android:onClick="record" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="history stats"
+        android:id="@+id/mm_b_stats"
+        android:onClick="stats" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:id="@+id/mm_b_settings"
+        android:onClick="settings" />
+</LinearLayout>
