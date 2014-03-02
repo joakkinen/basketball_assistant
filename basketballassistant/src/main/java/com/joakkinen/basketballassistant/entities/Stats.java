@@ -1,9 +1,11 @@
-package com.joakkinen.basketballassistant;
+package com.joakkinen.basketballassistant.entities;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.joakkinen.basketballassistant.R;
 
 public class Stats extends ActionBarActivity {
 

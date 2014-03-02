@@ -1,4 +1,4 @@
-package com.joakkinen.basketballassistant;
+package com.joakkinen.basketballassistant.activities;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.joakkinen.basketballassistant.R;
+import com.joakkinen.basketballassistant.entities.Stats;
 
 public class MainMenu extends ActionBarActivity {
 
